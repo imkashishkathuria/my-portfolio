@@ -1,8 +1,11 @@
 import './Navbar.css'
+import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div>
+        <img src={logo} alt='' width="180px"/>
+    </div>
   )
 }
 

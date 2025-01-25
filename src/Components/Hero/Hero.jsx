@@ -15,7 +15,7 @@ const Hero = () => {
                 Connect With Me
 
             </div>
-            <div className="hero-resume">My Resume</div>
+            <div onClick={()=>window.open('/My_Resume.pdf','_blank')} className="hero-resume">My Resume</div>
         </div>
     </div>
   )

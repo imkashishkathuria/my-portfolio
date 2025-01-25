@@ -2,6 +2,10 @@ import './Hero.css'
 import profile_img from '../../assets/profile_img.jpg';
 
 const Hero = () => {
+  const handleResumeClick = ()=>{
+    document.title = "My Resume - Kashish";
+    window.open('/My Resume - Kashish.pdf', '_blank');
+  }
   return (
     <div className='hero'>
 
@@ -15,7 +19,7 @@ const Hero = () => {
                 Connect With Me
 
             </div>
-            <div onClick={()=>window.open('/My_Resume.pdf','_blank')} className="hero-resume">My Resume</div>
+            <div onClick={handleResumeClick} className="hero-resume">My Resume</div>
         </div>
     </div>
   )

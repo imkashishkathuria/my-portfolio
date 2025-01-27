@@ -65,7 +65,7 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 30px;
+        right: 240px;
     }
 
     .nav-mob-close{

@@ -12,6 +12,7 @@
     list-style: none;
     gap: 50px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .nav-connect{
@@ -25,4 +26,15 @@
 
 .nav-connect:hover{
     transform: scale(1.05);
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img{
+    margin: auto;
+    display: flex;
 }

@@ -38,3 +38,8 @@
     margin: auto;
     display: flex;
 }
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}

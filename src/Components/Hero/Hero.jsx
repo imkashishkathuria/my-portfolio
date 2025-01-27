@@ -1,5 +1,6 @@
 import './Hero.css'
 import profile_img from '../../assets/profile_img.jpg';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Hero = () => {
   const handleResumeClick = ()=>{
@@ -7,7 +8,7 @@ const Hero = () => {
     window.open('/My Resume - Kashish.pdf', '_blank');
   }
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
 
         <img src={profile_img} alt=" " width="230px" height="200px"/>
 
@@ -16,8 +17,9 @@ const Hero = () => {
 
         <div className="hero-section">
             <div className="hero-connect">
+              <AnchorLink className='anchor-link' offset={50} href='#contact'>
                 Connect With Me
-
+                </AnchorLink>
             </div>
             <div onClick={handleResumeClick} className="hero-resume">My Resume</div>
         </div>

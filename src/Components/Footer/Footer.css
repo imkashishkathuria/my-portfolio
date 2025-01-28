@@ -72,18 +72,25 @@
 
 @media (max-width:768px) {
     .footer{
-        margin: 50px 70px;
+        /* width: 100%; */
+        margin: 50px 50px;
 
     }
 
     .footer-top{
         flex-direction: column;
         gap: 50px;
+        width: 100%;
     }
 
     .footer-bottom{
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 50px;
+    }
+
+    .footer-top-right{
+        display: flex;
+        flex-direction: column;
     }
 }

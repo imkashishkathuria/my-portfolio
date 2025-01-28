@@ -169,6 +169,8 @@
 
     .about-achievements{
         justify-content: space-between;
+        gap: 12px;
+        margin-left: -12px;
 
     }
 
@@ -177,7 +179,7 @@
     }
 
     .about-achievement h1{
-        font-size: 32px;
+        font-size: 25px;
         font-weight: 600;
     }
 

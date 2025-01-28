@@ -76,7 +76,8 @@
     .services{
         align-items: center;
         gap: 70px;
-        margin: 20px 30px;
+        margin-left: 50px;
+        /* margin: 30px 40px; */
     }
 
     .services-title h1{
@@ -110,7 +111,7 @@
     }
 
     .services-container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 60px;
     }
 }

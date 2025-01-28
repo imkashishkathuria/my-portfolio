@@ -5,7 +5,14 @@
 
 body{
   height: 120vh;
+  /* width: 100vw; */
   background: #161513;
   color: white;
   font-family: 'outfit';
+}
+
+@media (max-width:768px) {
+    body{
+      width: 100vw;
+    }
 }

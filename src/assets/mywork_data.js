@@ -10,6 +10,7 @@ import picture3 from '../assets/picture3.PNG'
 import picture4 from '../assets/picture4.PNG'
 import picture5 from '../assets/picture5.PNG'
 import picture6 from '../assets/picture6.PNG'
+import picture8 from '../assets/picture8.PNG'
 
 const mywork_data = [
     {
@@ -33,7 +34,7 @@ const mywork_data = [
     {
         w_no:4,
         w_name:"WeChat",
-        w_img:picture4,
+        w_img:picture8,
         w_link:"https://we-chat-theta.vercel.app/"
     },
     {

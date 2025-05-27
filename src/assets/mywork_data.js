@@ -32,9 +32,9 @@ const mywork_data = [
     },
     {
         w_no:4,
-        w_name:"Wei Flix",
+        w_name:"WeChat",
         w_img:picture4,
-        w_link:"https://wei-flix.vercel.app/"
+        w_link:"https://we-chat-theta.vercel.app/"
     },
     {
         w_no:5,
@@ -45,7 +45,8 @@ const mywork_data = [
     {
         w_no:6,
         w_name:"Netflix Clone",
-        w_img:picture6
+        w_img:picture6,
+        w_link:"https://netflix-clone-lovat-omega.vercel.app/"
     },
 ]
  

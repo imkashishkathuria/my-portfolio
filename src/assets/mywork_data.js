@@ -35,7 +35,7 @@ const mywork_data = [
         w_no:4,
         w_name:"WeChat",
         w_img:picture8,
-        w_link:"https://we-chat-theta.vercel.app/"
+        w_link:"https://chat-app-eight-kappa-48.vercel.app/login"
     },
     {
         w_no:5,

@@ -12,8 +12,8 @@ const Hero = () => {
 
         <img src={profile_img} alt=" " width="230px" height="200px"/>
 
-        <h1><span>I'm Kashish Kathuria, </span>frontend developer based in India.</h1>
-        <p>Aspiring Frontend Developer | Building Beautiful, Responsive, and Functional Interfaces with ReactJS.</p>
+        <h1><span>I'm Kashish Kathuria, </span>software developer based in India.</h1>
+        <p>Aspiring Software Developer | Building Beautiful, Responsive, and Functional Interfaces with ReactJS and NextJS.</p>
 
         <div className="hero-section">
             <div className="hero-connect">

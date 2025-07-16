@@ -39,9 +39,9 @@ const mywork_data = [
     },
     {
         w_no:5,
-        w_name:"Weather Forecast App",
+        w_name:"Therapist Serena App",
         w_img:picture5,
-        w_link:"https://weather-forecast-eosin-nu.vercel.app/"
+        w_link:"https://therapist-serena-eight.vercel.app/"
     },
     {
         w_no:6,

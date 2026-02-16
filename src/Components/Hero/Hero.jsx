@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Hero = () => {
   const handleResumeClick = ()=>{
     document.title = "My Resume - Kashish";
-    window.open('/My Resume - Kashish (2)', '_blank');
+    window.open('/My Resume - Kashish (2).pdf', '_blank');
   }
   return (
     <div id='home' className='hero'>
